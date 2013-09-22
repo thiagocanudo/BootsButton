@@ -15,8 +15,9 @@
 
 # TECHNOLOGY COLOPHON
 
-    Twitter Bootstrap,
-    HTML5,
-    CSS3,
-    jQuery,
-    SVG
+    <Twitter Bootstrap />
+    <HTML5 />
+    <CSS3 />
+    <CSS animation />
+    <jQuery />
+    <SV />
