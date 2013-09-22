@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3412"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   width="636"
+   height="65"
+   sodipodi:docname="pista-footer.png">
+  <metadata
+     id="metadata3418">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3416" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="708"
+     id="namedview3414"
+     showgrid="false"
+     inkscape:zoom="1.7672956"
+     inkscape:cx="206.65726"
+     inkscape:cy="-57.969333"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3412" />
+  <path
+     style="fill:#455c6f;fill-opacity:1"
+     d="M 50,57.5 50,50 45.687091,50 C 42.200344,50 40.823617,49.425333 38.5,47 L 35.625818,44 318,44 600.37418,44 597.5,47 c -2.32362,2.425333 -3.70034,3 -7.18709,3 L 586,50 l 0,7.5 0,7.5 -5,0 -5,0 0,-7.5 0,-7.5 -258,0 -258,0 0,7.5 0,7.5 -5,0 -5,0 0,-7.5 z M 16.358195,41.050197 C 11.09715,39.788704 6.1210159,36.062638 3.3244855,31.29072 -2.3806915,21.555571 0.94425381,9.056332 10.776578,3.276578 L 15.5,0.5 l 302.5,0 302.5,0 4.72342,2.776578 c 13.61497,8.003313 13.61497,27.443531 0,35.446844 L 620.5,41.5 320,41.651769 C 154.725,41.735242 18.086188,41.464535 16.358195,41.050197 z M 623.02638,34.986542 c 10.51092,-5.362269 10.51092,-22.610815 0,-27.973084 C 619.09679,5.008733 617.77593,5 318.5,5 19.224068,5 17.903205,5.008733 13.97362,7.013458 3.5909378,12.310307 3.4600718,29.499057 13.761021,34.937568 c 3.698062,1.952437 7.030654,1.974524 304.528819,2.018236 299.53043,0.04401 300.80636,0.03577 304.73654,-1.969262 z M 18,21 c 0,-1.995548 0.666667,-2 299.5,-2 298.83333,0 299.5,0.0045 299.5,2 0,1.995548 -0.66667,2 -299.5,2 C 18.666667,23 18,22.995548 18,21 z"
+     id="path3422"
+     inkscape:connector-curvature="0" />
+</svg>

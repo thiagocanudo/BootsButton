@@ -1,0 +1,22 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Thiago Canudo
+    Front-end
+    www.thiagocanudo.com.br
+    http://www.facebook.com/thiagocanudo
+    @thiagocanudo
+
+# THANKS
+
+    The internet
+
+# TECHNOLOGY COLOPHON
+
+    Twitter Bootstrap,
+    HTML5,
+    CSS3,
+    jQuery,
+    SVG
