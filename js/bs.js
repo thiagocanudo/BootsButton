@@ -533,7 +533,24 @@ $('#icon-right').click(function(){
     }
 });
 
+$.fn.activeButtonLink = function(){
+    $('#value').html('');
+    $('#igual').html('');
+    $('#aspasO').html('');
+    $('#aspasC').html('');
+    $('#txtBt').attr('class','white');
+    $('#fecha-tag').html('&quot;>');
+    $('#fecha-tag2').html('<');
+    $('#type').html('');
+    $('#igualType').html('');
+    $('#aspasOType').html('');
+    $('#valueType').html('');
+    $('#aspasCType').html('');
+    $('#icones').removeClass('disabled');
+} 
+
 $('#bt-link').click(function(){
+    $(this).activeButtonLink();
     $(this).addClass('active');
     $('#bt-button').removeClass('active');
     $('#bt-input').removeClass('active');
@@ -541,22 +558,10 @@ $('#bt-link').click(function(){
     $('#openTag').html('a');
     $('#closeTag').html('a');
     $('#ahref').show();
-    $('#value').html('');
-    $('#igual').html('');
-    $('#aspasO').html('');
-    $('#aspasC').html('');
-    $('#txtBt').attr('class','white');
-    $('#fecha-tag').html('&quot;>');
-    $('#fecha-tag2').html('<');
-    $('#type').html('');
-    $('#igualType').html('');
-    $('#aspasOType').html('');
-    $('#valueType').html('');
-    $('#aspasCType').html('');
-    $('#icones').removeClass('disabled');
 });
 
 $('#bt-button').click(function(){
+    $(this).activeButtonLink();
     $(this).addClass('active');
     $('#bt-link').removeClass('active');
     $('#bt-input').removeClass('active');
@@ -564,43 +569,22 @@ $('#bt-button').click(function(){
     $('#openTag').html('button');
     $('#closeTag').html('button');
     $('#ahref').hide();
-    $('#value').html('');
-    $('#igual').html('');
-    $('#aspasO').html('');
-    $('#aspasC').html('');
-    $('#txtBt').attr('class','white');
-    $('#fecha-tag').html('&quot;>');
-    $('#fecha-tag2').html('<');
-    $('#type').html('');
-    $('#igualType').html('');
-    $('#aspasOType').html('');
-    $('#valueType').html('');
-    $('#aspasCType').html('');
-    $('#icones').removeClass('disabled');
 });
 
-$('#bt-input').click(function(){
-    /*CONSERTO BUG*/
-    var $escolhido = $('#right-ico').find('i');
-    $('#left-ico').html($escolhido);
-    var $ecolhidoCodeR = $('#html-ico');
-    $('#code-icon-left').html($ecolhidoCodeR);
-    $('#lSpace').html(' ');
-    $('#rSpace').html('');
-    $('#icon-left').addClass('active');
-    $('#icon-right').removeClass('active');
+$.fn.inactiveSubmitInput =  function() {
     $(this).addClass('active');
-    $('#icon-icon-remove').addClass('disabled');
+    $('#icon-remove').addClass('disabled');
     $('#icon-ok').addClass('disabled');
     $('#icon-white').addClass('disabled');
     $('#icon-black').addClass('disabled');
     $('#icon-left').addClass('disabled');
-    $('#icon-right').addClass('disabled');
+    $('#icon-right').removeClass('active').addClass('disabled');
+    $('ul.the-icons li').removeClass('iconActive'); 
     $('#bt-link').removeClass('active');
     $('#bt-button').removeClass('active');
-    $('#bt-submit').removeClass('active');
-
-    /*code*/
+    /*code for input*/
+    $('#lSpace').html(' ');
+    $('#rSpace').html('');
     $('#openTag').html('input');
     $('#closeTag').html('');
     $('#ahref').hide();
@@ -613,63 +597,34 @@ $('#bt-input').click(function(){
     $('#fecha-tag2').html('');
     $('#type').html('type');
     $('#igualType').html('=');
-    $('#aspasOType').html('&quot;');
-    $('#valueType').html('button');
-    $('#aspasCType').html('&quot;');
+    $('#aspasOType').html('&quot;');    
+    $('#aspasCType').html('&quot; ');
     $('#code-icon-right').hide();
     $('#code-icon-left').hide();
     $('#left-ico').html('');
     $('#right-ico').html('');
+    /*fecha galeria icones*/
     $('ul.the-icons li').removeClass('iconActive');
     $("#galleryIcons").slideUp('slow');
     $('#icones').addClass('disabled');
     $('#icones i').removeClass('icon-folder-open');
-    $('#icones i').addClass('icon-folder-close');   
+    $('#icones i').addClass('icon-folder-close');
+    /*CONSERTO BUG*/
+    var $escolhido = $('#right-ico').find('i');
+    $('#left-ico').html($escolhido);
+    var $ecolhidoCodeR = $('#html-ico');
+    $('#code-icon-left').html($ecolhidoCodeR);
+    return false;
+}
+
+$('#bt-input').click(function(){
+    $(this).inactiveSubmitInput();
+    $('#bt-submit').removeClass('active'); 
+    $('#valueType').html('button');
 });
 
 $('#bt-submit').click(function(){
-    /*CONSERTO BUG*/
-    var $escolhido = $('#right-ico').find('i');
-    $('#left-ico').html($escolhido);
-    var $ecolhidoCodeR = $('#html-ico');
-    $('#code-icon-left').html($ecolhidoCodeR);
-    $('#lSpace').html(' ');
-    $('#rSpace').html('');
-    $('#icon-left').addClass('active');
-    $('#icon-right').removeClass('active');
-    $(this).addClass('active');
-    $('#bt-link').removeClass('active');
-    $('#bt-button').removeClass('active');
+    $(this).inactiveSubmitInput();
     $('#bt-input').removeClass('active');
-    $('#openTag').html('input');
-    $('#closeTag').html('');
-    $('#ahref').hide();
-    $('#value').html('value');
-    $('#igual').html('=');
-    $('#aspasO').html('&quot;');
-    $('#aspasC').html('&quot;');
-    $('#txtBt').attr('class','yellow');
-    $('#fecha-tag').html('&quot');
-    $('#fecha-tag2').html('');
-    $('#type').html('type');
-    $('#igualType').html('=');
-    $('#aspasOType').html('&quot;');
     $('#valueType').html('submit');
-    $('#aspasCType').html('&quot;'); 
-    $('#code-icon-right').hide();
-    $('#code-icon-left').hide();
-    $('#left-ico').html('');
-    $('#right-ico').html('');
-    $('ul.the-icons li').removeClass('iconActive');
-    $('#icon-ok').addClass('disabled');
-    $('#icon-white').addClass('disabled');
-    $('#icon-black').addClass('disabled');
-    $('#icon-left').addClass('disabled');
-    $('#icon-right').addClass('disabled');
-    $('ul.the-icons li').removeClass('iconActive');
-    /*fecha galeria icones*/
-    $("#galleryIcons").slideUp('slow');
-    $('#icones').addClass('disabled');
-    $('#icones i').removeClass('icon-folder-open');
-    $('#icones i').addClass('icon-folder-close'); 
 });
