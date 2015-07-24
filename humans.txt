@@ -11,7 +11,7 @@
 
 # THANKS
 
-    The internet
+    The Twitter Bootstrap Team
 
 # TECHNOLOGY COLOPHON
 
