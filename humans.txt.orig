@@ -9,19 +9,26 @@
 # CONTACTS
 
     http://www.thiagocanudo.com.br
+    http://www.thiagocanudo.com.br/blog
     http://www.github.com/thiagocanudo
+    http://www.pinterest.com/thiagocanudo
+    http://www.facebook.com/thiagocanudo
     http://www.linkedin.com/profile/view?id=234753688
     http://www.twiiter.com/thiagocanudo
 
 # THANKS
 
+<<<<<<< HEAD
+    The jQuery Team
+=======
     The Twitter Bootstrap Team
+>>>>>>> master
 
 # TECHNOLOGY COLOPHON
 
-    Twitter Bootstrap
-    HTML5
-    CSS3
-    CSS animation
-    jQuery
-    SVG 
+    <Twitter Bootstrap />
+    <HTML5 />
+    <CSS3 />
+    <CSS animation />
+    <jQuery />
+    <SVG />
