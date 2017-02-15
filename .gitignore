@@ -1,4 +1,5 @@
-
+_scss/*
 _infra/*
 css/.sass-cache/*
 css/bootsbuttongenerator.css.map
+css/bootsbuttongenerator.min.css.map

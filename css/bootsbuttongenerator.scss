@@ -1,10 +1,9 @@
-@import 'helpers/grid';
-@import 'helpers/variaveis';
-@import 'helpers/mixins';
-@import 'helpers/placeholders';
-@import 'helpers/icons';
+@import '../_scss/helpers/variaveis.';
+@import '../_scss/helpers/mixins';
+@import '../_scss/helpers/placeholders';
+@import '../_scss/helpers/icons';
 
-@import 'layout/geral';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/animation';
+@import '../_scss/layout/geral';
+@import '../_scss/layout/header';
+@import '../_scss/layout/footer';
+@import '../_scss/layout/animation';
