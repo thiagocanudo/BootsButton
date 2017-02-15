@@ -1,5 +1,5 @@
 $('document').ready(function(){
-         
+
     //button text
     var $msg = $('#msg');
     $msg.focus();
@@ -31,49 +31,49 @@ $('document').ready(function(){
     //btn-primary
     $('a#btn-primary').click(function(){
            $(this).addClass('active').parent().siblings('p').find('a').removeClass('active');
-           $('#bt').addClass('btn-primary').removeClass("btn-default btn-info btn-success btn-warning btn-danger btn-inverse btn-link");   
+           $('#bt').addClass('btn-primary').removeClass("btn-default btn-info btn-success btn-warning btn-danger btn-inverse btn-link");
            $('#code-btn-color').text(' btn-primary');
     });
 
     //btn-info
     $('a#btn-info').click(function(){
            $(this).addClass('active').parent().siblings('p').find('a').removeClass('active');
-           $('#bt').addClass('btn-info').removeClass("btn-default btn-primary btn-success btn-warning btn-danger btn-inverse btn-link");   
-           $('#code-btn-color').text(' btn-info');  
+           $('#bt').addClass('btn-info').removeClass("btn-default btn-primary btn-success btn-warning btn-danger btn-inverse btn-link");
+           $('#code-btn-color').text(' btn-info');
     });
 
     //btn-success
     $('a#btn-success').click(function(){
             $(this).addClass('active').parent().siblings('p').find('a').removeClass('active');
-            $('#bt').addClass('btn-success').removeClass("btn-default btn-primary btn-info btn-warning btn-danger btn-inverse btn-link");   
+            $('#bt').addClass('btn-success').removeClass("btn-default btn-primary btn-info btn-warning btn-danger btn-inverse btn-link");
             $('#code-btn-color').text(' btn-success');
     });
 
     //btn-warning
     $('a#btn-warning').click(function(){
             $(this).addClass('active').parent().siblings('p').find('a').removeClass('active');
-            $('#bt').addClass('btn-warning').removeClass("btn-default btn-primary btn-info btn-success btn-danger btn-inverse btn-link");   
+            $('#bt').addClass('btn-warning').removeClass("btn-default btn-primary btn-info btn-success btn-danger btn-inverse btn-link");
             $('#code-btn-color').text(' btn-warning');
     });
 
     //btn-danger
     $('a#btn-danger').click(function(){
             $(this).addClass('active').parent().siblings('p').find('a').removeClass('active');
-            $('#bt').addClass('btn-danger').removeClass("btn-default btn-primary btn-info btn-success btn-warning btn-inverse btn-link");   
+            $('#bt').addClass('btn-danger').removeClass("btn-default btn-primary btn-info btn-success btn-warning btn-inverse btn-link");
             $('#code-btn-color').text(' btn-danger');
     });
 
     //btn-inverse
     $('a#btn-inverse').click(function(){
             $(this).addClass('active').parent().siblings('p').find('a').removeClass('active');
-            $('#bt').addClass('btn-inverse').removeClass("btn-default btn-primary btn-info btn-success btn-warning btn-danger btn-link");   
+            $('#bt').addClass('btn-inverse').removeClass("btn-default btn-primary btn-info btn-success btn-warning btn-danger btn-link");
             $('#code-btn-color').text(' btn-inverse');
     });
 
     //btn-link
     $('a#btn-link').click(function(){
             $(this).addClass('active').parent().siblings('p').find('a').removeClass('active');
-            $('#bt').addClass('btn-link').removeClass("btn-default btn-primary btn-info btn-success btn-warning btn-danger btn-inverse");   
+            $('#bt').addClass('btn-link').removeClass("btn-default btn-primary btn-info btn-success btn-warning btn-danger btn-inverse");
             $('#code-btn-color').text(' btn-link');
     });
 
@@ -87,9 +87,9 @@ $('document').ready(function(){
 
     $('#btn-sm').click(function(){
         $(this).addClass('active').parent().siblings().find('a').removeClass('active');
-        $('#bt').addClass("btn-sm").removeClass("btn-xs btn-lg"); 
-        $('#stage p a').css('margin-top','9px');    
-        $('#code-btn-size').html(' btn-sm');  
+        $('#bt').addClass("btn-sm").removeClass("btn-xs btn-lg");
+        $('#stage p a').css('margin-top','9px');
+        $('#code-btn-size').html(' btn-sm');
     });
 
     $('#default').click(function(){
@@ -101,13 +101,13 @@ $('document').ready(function(){
 
     $('#btn-lg').click(function(){
         $(this).addClass('active').parent().siblings().find('a').removeClass('active');
-        $('#bt').addClass("btn-lg").removeClass("btn-sm btn-xs");    
+        $('#bt').addClass("btn-lg").removeClass("btn-sm btn-xs");
         $('#stage p a').css({'margin-top': '0'});
         $('#code-btn-size').html(' btn-lg');
     });
 
     //btn-default
-    $('#btn-default').click(function(){
+    $('#btn-default-state').click(function(){
         $(this).addClass('active').parent().siblings('p').find('a').removeClass('active');
         $('#bt').removeClass('active disabled');
         $('#code-state').html('');
@@ -117,14 +117,14 @@ $('document').ready(function(){
     $('#btn-active').click(function(){
         $(this).addClass('active').parent().siblings('p').find('a').removeClass('active');
         $('#bt').removeClass('disabled').addClass('active');
-        $('#code-state').html(' active');	
+        $('#code-state').html(' active');
     });
 
     //btn-disabled
     $('#btn-disabled').click(function(){
         $(this).addClass('active').parent().siblings('p').find('a').removeClass('active');
         $('#bt').removeClass('active').addClass('disabled');
-        $('#code-state').html(' disabled');   
+        $('#code-state').html(' disabled');
     });
 
     //btn-block
@@ -136,7 +136,7 @@ $('document').ready(function(){
     		$codeBtnBlock.html(' btn-block');
     	}else{
             $codeBtnBlock.html('');
-        }      
+        }
     });
 
     //icon-white
@@ -188,9 +188,9 @@ $('document').ready(function(){
             $('#bt i').attr('class',''+$txtUser+' icon-white'); // REMOBER ICON-WHITE
         }else{
             $('#bt i').attr('class',''+$txtUser+'');
-        } 
+        }
         $('#code-icon-left').show();
-        $('#i').html($txtUser);   
+        $('#i').html($txtUser);
         $('#icon-left, #icon-white, #icon-black, #icon-right, #icon-ok, #icon-remove').removeClass('disabled');
         $('#icon-remove').removeClass('active');
         $('#icon-ok').addClass('active');
@@ -215,9 +215,9 @@ $('document').ready(function(){
             $('#icon-ok, #icon-white, #icon-black, #icon-left, #icon-right').addClass('disabled');
             $('ul.the-icons li').removeClass('iconActive');
             $("#galleryIcons").slideToggle("slow");
-            $('#icones i').removeClass('glyphicon glyphicon-folder-open').addClass('glyphicon glyphicon-folder-close');  
+            $('#icones i').removeClass('glyphicon glyphicon-folder-open').addClass('glyphicon glyphicon-folder-close');
         }
-    }); 
+    });
 
     //icon-left
     $('#icon-left').click(function(){
@@ -229,7 +229,7 @@ $('document').ready(function(){
             var $ecolhidoCodeR = $('#html-ico');
             $('#code-icon-left').html($ecolhidoCodeR);
             $('#lSpace, #rSpace').html('');
-        } 
+        }
     });
 
     //icon-right
@@ -237,7 +237,7 @@ $('document').ready(function(){
         if(!$('#icon-right').hasClass('disabled') && !$('#icon-right').hasClass('active')){
             //selecao do botao
             $(this).addClass('active');
-            $('#icon-left').removeClass('active'); 
+            $('#icon-left').removeClass('active');
         var $escolhido = $('#left-ico').find('i');
         $('#right-ico').html($escolhido);
             var ecolhidoCodeL = $('#html-ico');
@@ -261,7 +261,7 @@ $('document').ready(function(){
         $(this).addClass('active');
         $('#icon-remove, #icon-ok, #icon-white, #icon-black, #icon-left').addClass('disabled');
         $('#icon-right').removeClass('active').addClass('disabled');
-        $('ul.the-icons li').removeClass('iconActive'); 
+        $('ul.the-icons li').removeClass('iconActive');
         $('#bt-link, #bt-button').removeClass('active');
         /*code for input*/
         $('#ahref').hide();
@@ -307,7 +307,7 @@ $('document').ready(function(){
 
     $('#bt-input').click(function(){
         $(this).inactiveSubmitInput();
-        $('#bt-submit').removeClass('active'); 
+        $('#bt-submit').removeClass('active');
         $('#valueType').html('button');
     });
 
