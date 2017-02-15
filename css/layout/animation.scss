@@ -1,0 +1,284 @@
+
+.gearSpin {
+    @extend %duration-animate3-5s;
+    @include gear-spin;
+    @include default-animation;
+}
+
+.gearSpin2 {
+    @extend %duration-animate9-5s;
+    @include gear-spin;
+    @include default-animation;
+}
+
+
+.gearSpin3 {
+    @extend %duration-animate9s;
+    @include gear-spin;
+    @include default-animation;
+}
+
+.gearSpinReverse {
+    @extend %gera-spin-reverse;
+    @extend %duration-animate3-5s;
+    @include default-animation;
+}
+
+.move {
+    position: relative;
+    @extend %move-mesa;
+    @extend %duration-animate28-5s;
+    @include default-animation;
+}
+
+@-webkit-keyframes gearSpin {
+    0% {
+      @include rotate-0;
+      @include default-animation;
+    }
+
+    25% {
+      @include rotate-25pec;
+      @include default-animation;
+    }
+
+    50% {
+      @include rotate-50pec;
+      @include default-animation;
+    }
+
+    75% {
+      @include rotate-75pec; //inverse
+      @include default-animation;
+    }
+
+    100% {
+      @include rotate-100pec;
+      @include default-animation;
+    }
+}
+
+@-moz-keyframes gearSpin {
+    0% {
+      @include rotate-0;
+      @include default-animation;
+    }
+
+    25% {
+      @include rotate-25pec;
+      @include default-animation;
+    }
+
+    50% {
+      @include rotate-50pec;
+      @include default-animation;
+    }
+
+    75% {
+      @include rotate-75pec; //inverse
+      @include default-animation;
+    }
+
+    100% {
+      @include rotate-100pec;
+      @include default-animation;
+    }
+}
+
+@-ms-keyframes gearSpin {
+    0% {
+      @include rotate-0;
+      @include default-animation;
+    }
+
+    25% {
+      @include rotate-25pec;
+      @include default-animation;
+    }
+
+    50% {
+      @include rotate-50pec;
+      @include default-animation;
+    }
+
+    75% {
+      @include rotate-75pec; //inverse
+      @include default-animation;
+    }
+
+    100% {
+      @include rotate-100pec;
+      @include default-animation;
+    }
+}
+
+@keyframes gearSpin {
+    0% {
+      @include rotate-0;
+      @include default-animation;
+    }
+
+    25% {
+      @include rotate-25pec;
+      @include default-animation;
+    }
+
+    50% {
+      @include rotate-50pec;
+      @include default-animation;
+    }
+
+    75% {
+      @include rotate-75pec; //inverse
+      @include default-animation;
+    }
+
+    100% {
+      @include rotate-100pec;
+      @include default-animation;
+    }
+}
+
+@-webkit-keyframes gearSpinReverse {
+    0% {
+      @include rotate-100pec; //inverse
+      @include default-animation;
+    }
+
+    25% {
+      @include rotate-75pec; //inverse
+      @include default-animation;
+    }
+
+    50% {
+      @include rotate-50pec;
+      @include default-animation;
+    }
+
+    75% {
+      @include rotate-25pec;
+      @include default-animation;
+    }
+
+    100% {
+      @include rotate-0; //inverse
+      @include default-animation;
+    }
+}
+
+@-moz-keyframes gearSpinReverse {
+    0% {
+      @include rotate-100pec; //inverse
+      @include default-animation;
+    }
+
+    25% {
+      @include rotate-75pec; //inverse
+      @include default-animation;
+    }
+
+    50% {
+      @include rotate-50pec;
+      @include default-animation;
+    }
+
+    75% {
+      @include rotate-25pec;
+      @include default-animation;
+    }
+
+    100% {
+      @include rotate-0; //inverse
+      @include default-animation;
+    }
+}
+
+@-ms-keyframes gearSpinReverse {
+    0% {
+      @include rotate-100pec; //inverse
+      @include default-animation;
+    }
+
+    25% {
+      @include rotate-75pec; //inverse
+      @include default-animation;
+    }
+
+    50% {
+      @include rotate-50pec;
+      @include default-animation;
+    }
+
+    75% {
+      @include rotate-25pec;
+      @include default-animation;
+    }
+
+    100% {
+      @include rotate-0; //inverse
+      @include default-animation;
+    }
+}
+
+@keyframes gearSpinReverse {
+    0% {
+      @include rotate-100pec; //inverse
+      @include default-animation;
+    }
+
+    25% {
+      @include rotate-75pec; //inverse
+      @include default-animation;
+    }
+
+    50% {
+      @include rotate-50pec;
+      @include default-animation;
+    }
+
+    75% {
+      @include rotate-25pec;
+      @include default-animation;
+    }
+
+    100% {
+      @include rotate-0; //inverse
+      @include default-animation;
+    }
+}
+
+@-webkit-keyframes EmoveMesa {
+    from {
+        left: 640px
+    }
+    to {
+        left: -750px
+    }
+}
+
+@-moz-keyframes EmoveMesa {
+    from {
+        left: 640px
+    }
+    to {
+        left: -750px
+    }
+}
+
+@-ms-keyframes EmoveMesa {
+    from {
+        left: 640px
+    }
+    to {
+        left: -750px
+    }
+}
+
+@keyframes EmoveMesa {
+    from {
+        left: 640px
+    }
+    to {
+        left: -750px
+    }
+}

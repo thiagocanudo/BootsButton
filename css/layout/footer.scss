@@ -1,0 +1,168 @@
+.footer{
+  height: 148px;
+  background: #242d31 url(../img/header-bg.png);
+}
+
+#rodape {
+    height: 148px;
+    overflow: hidden;
+
+        #mainRodape {
+            position: relative;
+            width: 840px;
+            height: 147px;
+            overflow: hidden;
+            margin: 0 auto;
+        
+        #machine-right,
+        #machine-left {
+            z-index: 99;
+            position: absolute;
+            top: 0;
+            width: 100px;
+            height: 147px
+        }
+
+        #machine-right {
+            right: 0;
+            background: url(../img/machine-right.png);
+            background: url(../img/machine-right.svg),none;
+            background-size: 100% 100%
+        }
+
+        #machine-right #gearMR {
+            position: absolute;
+            top: 63px;
+            left: 22px;
+            width: 56px;
+            height: 56px;
+            background: url(../img/gear-machine-right.png);
+            background: url(../img/gear-machine-right.svg),none;
+            background-size: 100% 100%
+        }
+
+        #machine-left {
+            left: 0;
+            background: url(../img/machine-left.png);
+            background: url(../img/machine-left.svg),none;
+            background-size: 100%
+        }
+
+        #machine-left #gearML1 {
+            position: absolute;
+            top: 74px;
+            left: 49px;
+            width: 28px;
+            height: 28px;
+            background: url(../img/engrenagem-mini.png);
+            background: url(../img/engrenagem-mini.svg),none;
+            background-size: 100% 100%
+        }
+
+        #machine-left #gearML2 {
+            position: absolute;
+            top: 121px;
+            left: 75px;
+            width: 16px;
+            height: 16px;
+            background: url(../img/engrenagem-mini02.png);
+            background: url(../img/engrenagem-mini.svg),none;
+            background-size: 100% 100%
+        }
+
+        #gear-center {
+            position: absolute;
+            top: -160px;
+            margin-left: -90px;
+            left: 50%;
+            width: 210px;
+            height: 210px;
+            background: url(../img/engrenagem-master02.png);
+            background: url(../img/engrenagem-master.svg),none;
+            background-size: 100% 100%
+        }
+
+        #overflowProdutos {
+            position: relative;
+            width: 638px;
+            overflow: hidden;
+            margin: 35px auto 0
+        }
+
+        #produtos {
+            position: relative;
+            width: 760px;
+            height: 46px;
+
+        .btn {
+            margin-top: 1px;
+            margin-right: 40px
+        }
+
+        .btn-mini {
+            margin-top: 23px
+        }
+
+        .btn-small {
+            margin-top: 20px
+        }
+
+        .btn-first {
+            margin-left: 5px
+        }
+
+        .btn-last {
+            margin-right: 0
+        }
+      }
+    }
+  }
+
+#pistao {
+    position: absolute;
+    width: 636px;
+    height: 65px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -318px;
+    background: url(../img/pista-footer.png);
+    background: url(../img/pista-footer.svg);
+
+  .engreMini {
+      position: absolute;
+      top: 7px;
+      width: 28px;
+      height: 28px;
+      background: url(../img/engrenagem-mini.png);
+      background: url(../img/engrenagem-mini.svg),;
+      background-size: 100% 100%
+  }
+
+  #eFoo1 {
+      left: 8px
+  }
+
+  #eFoo2 {
+      left: 100px
+  }
+
+  #eFoo3 {
+      left: 200px
+  }
+
+  #eFoo4 {
+      left: 300px
+  }
+
+  #eFoo5 {
+      left: 400px
+  }
+
+  #eFoo6 {
+      left: 500px
+  }
+
+  #eFoo7 {
+      left: 600px
+  }
+}
