@@ -1,0 +1,70 @@
+
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-top: 1px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+}
+
+#galleryIcons {
+    display: none;
+    width: 100%;
+    margin: 15px 0 0;
+    @include radius-border;
+    background: #d8dde0
+}
+
+#galleryIcons #icos {
+}
+
+#galleryIcons #icos ul {
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#galleryIcons #icos ul li {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    overflow: hidden;
+    padding: 0
+}
+
+#galleryIcons #icos ul li .glyphicon{
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 23px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#galleryIcons #icos ul li:hover {
+    background-color: #fff;
+    @include radius-border;
+    box-shadow: 0 0 3px #c8c8c8,0 0 0 transparent,0 0 0 transparent,0 0 0 transparent,0 0 0 transparent
+}
+
+#galleryIcons #icos ul li.iconActive {
+    background-color: #fff;
+    @include radius-border;
+    box-shadow: 0 0 5px #c8c8c8,0 0 0 transparent,0 0 0 transparent,0 0 0 transparent,0 0 0 transparent
+}
+
+
+#galleryIcons #box-icons{
+  width: 168px;
+  margin: 20px auto 10px;
+}
+
+.hidden-lg #icon-white.btn-default{
+  color: #d4c9c9;
+}

@@ -1,0 +1,151 @@
+
+
+body {
+    font-size: 12px;
+    background: #eee url(../img/bg_body.jpg);
+}
+
+h1,h2,h3,label{font-family: 'Oswald',sans-serif,cursive;}
+
+.container{
+    margin-top: 15px;
+    padding-bottom: 25px;
+    @include radius-border;
+
+    @media (min-width: 1200px){
+          width: 880px;
+    }    
+}
+
+.container-fluid{
+  overflow: hidden;
+}
+
+.container-bg{
+    background: #fff url(../img/bg-stage.png) 1px 0;
+    @include shadow-box;
+}
+
+.campo,.code{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.campo{
+   label{
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    color: #2e373f;
+  }
+
+  input{
+        font-size: 14px;
+        width: 100%;
+        border: 1px solid #ccc;
+        padding:5px;
+        @include radius-border;
+  }
+}
+
+.code {
+  font-size: 13px;
+  font-weight: bold;
+  color: #e6db74;
+  border: 1px solid #999;
+  background: #272822 url(../img/html-code.png) 5px 2px no-repeat;
+  @include radius-border;
+  
+  div {
+    display: block;
+    min-height: 74px;
+    padding: 18px 20px;
+    text-align: center;
+  }
+
+  #i {
+    color: $yellow;
+  }
+
+  .white {
+      color: $white;
+  }
+
+  .pink {
+      color: $pink;
+  }
+
+  .green {
+      color: $green;
+  }
+
+  .yellow {
+      color: $yellow;
+  }
+
+}
+
+.contra-stage{
+    height: 100px;
+    margin: 15px auto;
+    border: 2px solid #e3e3e3;
+    background: #f7f7f7;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05) inset;
+    z-index: 10 !important;
+    @include radius-border;
+
+  #stage{
+    text-align: center;
+  }
+
+  #stage p{
+    height: 45px;
+    margin-top: 24px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+.col-buttons{
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:1px 10px;
+  background: #d8dde0;
+  @include radius-border;
+  height: 370px;
+
+  @media (max-width: 767px) {
+    height: auto;
+
+    a{
+      display: block;
+      width: 100%;
+      padding-right: 0px;
+      padding-left: 0px;
+      box-sizing: border-box;
+    }
+
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #2e373f;
+  }    
+
+} 
+
+.container-credit{
+  p{
+    font-size: 11px;
+    color: #657583;
+
+      a{
+        color: #2e373f;
+      }
+  }
+}
+
+#git-ribbon{
+  position: absolute; top: 0; right: 0; border: 0;
+}
