@@ -93,6 +93,11 @@
             position: relative;
             width: 760px;
             height: 46px;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: end;
+            -ms-flex-align: end;
+            align-items: flex-end;
 
         .btn {
             margin-top: 1px;
