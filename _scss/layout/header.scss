@@ -65,7 +65,13 @@
       height: 1px;
       overflow: hidden;
       text-indent: -99999px;
-  }    
+  }  
+
+  #git-button{
+    position: absolute;
+    bottom: 2px;
+    left: 15px;
+  } 
 }
 
 
