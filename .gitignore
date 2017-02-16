@@ -1,3 +1,4 @@
+.sass-cache/**/*
 _scss/**/*
 _infra/**/*
 css/.sass-cache/**/*
